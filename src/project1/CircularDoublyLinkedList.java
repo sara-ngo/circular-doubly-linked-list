@@ -139,7 +139,7 @@ public class CircularDoublyLinkedList {
                     {
                         temp = null;
                         currentSize--;
-                        System.out.println("Deleting succesful.");
+                        System.out.println("Deleting successful.");
                         return true;
                     }
                     else
@@ -147,7 +147,7 @@ public class CircularDoublyLinkedList {
                         temp.prev.next = temp.next;
                         temp.next.prev = temp.prev;
                         currentSize--;
-                        System.out.println("Deleting succesful.");
+                        System.out.println("Deleting successful.");
                         current = temp.next;
                         return true;
                     }
