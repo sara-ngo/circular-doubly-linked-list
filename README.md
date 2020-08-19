@@ -24,7 +24,7 @@ print functions
 -	Forward
 -	Reverse
 
-#scenarios:
+# scenarios:
 1. Empty List
 2. Lists with only 1 Node
 3. Lists with more than 1 Node
